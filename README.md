@@ -65,7 +65,7 @@
 ---
 
 ### 📊 Skills Progress
-<p align="left">
+<p align="center">
   <img src="https://img.shields.io/badge/HTML-95%25-FF5733?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/CSS-90%25-264DE4?style=for-the-badge&logo=css3&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-85%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
@@ -73,6 +73,13 @@
   <img src="https://img.shields.io/badge/Laravel-75%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-70%25-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Node.js-65%25-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+</p>
+
+---
+
+### ☁️ Tech Cloud (Animated Feel)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,nodejs,react,mongodb,postgres,docker,linux" alt="Tech Cloud"/>
 </p>
 
 ---
