@@ -41,40 +41,15 @@
 
 ---
 
-## 🔥 Featured Projects
+ 
+## 📂 Featured Projects
 
-<table align="center">
-  <tr>
-    <td width="50%">
-      <h3 align="center">Front Office E-commerce</h3>
-      <div align="center">
-        <a href="https://elassaly-amine.idsmobile.com" target="_blank">
-          <img src="https://via.placeholder.com/300x150/0e75b6/ffffff?text=E-commerce+Front" alt="E-commerce Front" width="100%" />
-        </a>
-        <p>
-          <a href="https://elassaly-amine.idsmobile.com" target="_blank">
-            <img src="https://img.shields.io/badge/LIVE_DEMO-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" />
-          </a>
-        </p>
-        <p><strong>React, Node.js, MongoDB</strong> - Modern e-commerce platform with responsive design</p>
-      </div>
-    </td>
-    <td width="50%">
-      <h3 align="center">Back Office Dashboard</h3>
-      <div align="center">
-        <a href="https://elassaly-amine.idsmobile.com/backoffice" target="_blank">
-          <img src="https://via.placeholder.com/300x150/0e75b6/ffffff?text=Back+Office" alt="Back Office" width="100%" />
-        </a>
-        <p>
-          <a href="https://elassaly-amine.idsmobile.com/backoffice" target="_blank">
-            <img src="https://img.shields.io/badge/LIVE_DEMO-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" />
-          </a>
-        </p>
-        <p><strong>Laravel, MySQL, Bootstrap</strong> - Complete admin panel with analytics</p>
-      </div>
-    </td>
-  </tr>
-</table>
+| Project | Description | Link |
+|---------|-------------|------|
+| **Front Office E-commerce** | React-based shopping platform | [Live Demo](https://elassaly-amine.idsmobile.com) |
+| **Back Office Dashboard** | Laravel admin panel | [Live Demo](https://elassaly-amine.idsmobile.com/backoffice) |
+
+
 
 ---
 
