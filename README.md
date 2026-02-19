@@ -1,32 +1,42 @@
 <h1 align="center">Hi 👋, I'm AMINE EL ASSALY</h1>
-<h3 align="center">A passionate full stack developer from MOROCCO</h3>
+<h3 align="center">A passionate Full Stack Developer from MOROCCO</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20views&color=0e75b6&style=flat" alt="aminemoon" /> </p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20views&color=0e75b6&style=flat" alt="aminemoon" />
+</p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aminemoon" alt="aminemoon" /></a> </p>
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=aminemoon" alt="aminemoon" />
+  </a>
+</p>
 
-- 🔭 I’m currently working on []()
+---
 
-- 🌱 I’m currently learning **laravel framework**
+### About Me
+- 🔭 I’m currently working on [Your Project Name](#)
+- 🌱 I’m currently learning **Laravel framework**
+- 👯 I’m looking to collaborate on [Hackathons](#)
+- 🤝 I’m looking for help with [Your Need](#)
+- 📝 I regularly write articles on [My Blog](#)
+- 💬 Ask me about **Web Development, Laravel, and more**
+- 📫 How to reach me: **[Email or Contact Link](#)**
+- 📄 Know about my experiences: [Resume](#)
 
-- 👯 I’m looking to collaborate on [hackathons](...)
+---
 
-- 🤝 I’m looking for help with [...](...)
+### My Projects
 
-- 📝 I regularly write articles on [.....](.....)
+<p align="center">
+  <a href="https://elassaly-amine.idsmobile.com" style="text-decoration:none;">
+    <kbd>Front Office Ecommerce Website</kbd>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://elassaly-amine.idsmobile.com/backoffice" style="text-decoration:none;">
+    <kbd>Back Office</kbd>
+  </a>
+</p>
 
-- 💬 Ask me about **...**
-
-- 📫 How to reach me **....**
-
-- 📄 Know about my experiences [......](......)
-- 
-  My projects
- 
-   - [ Front office Ecommerce website](https://elassaly-amine.idsmobile.com)
-  <br>
-   - [ Back office ](https://elassaly-amine.idsmobile.com/backoffice)
-  <br/>
   
 <h3 align="left">Connect with me:</h3>
 <p align="left">
