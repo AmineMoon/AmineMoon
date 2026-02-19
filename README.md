@@ -5,8 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=aminemoon" alt="aminemoon" /></a> </p>
 
-- 🔭 I’m currently working on [Ecommerce website](https://elassaly-amine.idsmobile.com)
-
+- 🔭 I’m currently working on []()
 
 - 🌱 I’m currently learning **laravel framework**
 
@@ -23,7 +22,7 @@
 - 📄 Know about my experiences [......](......)
 - 
   My projects
-  <div style= background : black ;>  
+  <div>  
    -[ Front office Ecommerce website](https://elassaly-amine.idsmobile.com)
   <br>
    -[ Back office Ecommerce website](https://elassaly-amine.idsmobile.com/backoffice)
