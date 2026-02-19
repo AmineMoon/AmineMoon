@@ -22,11 +22,11 @@
 - 📄 Know about my experiences [......](......)
 - 
   My projects
-  <div>  
-   -[ Front office Ecommerce website](https://elassaly-amine.idsmobile.com)
+ 
+   - [ Front office Ecommerce website](https://elassaly-amine.idsmobile.com)
   <br>
-   -[ Back office Ecommerce website](https://elassaly-amine.idsmobile.com/backoffice)
-  </div>
+   - [ Back office Ecommerce website](https://elassaly-amine.idsmobile.com/backoffice)
+ 
   
 <h3 align="left">Connect with me:</h3>
 <p align="left">
