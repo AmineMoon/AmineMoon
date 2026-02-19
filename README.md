@@ -1,35 +1,85 @@
 # Hi 👋, I'm AMINE EL ASSALY
-### <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=25&duration=2500&pause=1000&color=0e75b6&center=true&vCenter=true&width=600&lines=A+passionate+Full+Stack+Developer;From+MOROCCO;Loves+Coding+and+Tech" alt="Typing SVG"/>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Laravel+Enthusiast;From+Morocco+%F0%9F%87%B2%F0%9F%87%A6;Open+Source+Contributor" alt="Typing SVG" />
+</div>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
-  <br>
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=aminemoon&theme=dark" alt="GitHub Trophy" />
+  <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile views" />
+  <a href="https://github.com/aminemoon?tab=followers">
+    <img src="https://img.shields.io/github/followers/aminemoon?label=Followers&style=social" alt="GitHub followers" />
+  </a>
+  <a href="https://github.com/aminemoon">
+    <img src="https://img.shields.io/github/stars/aminemoon?label=Stars&style=social" alt="GitHub stars" />
   </a>
 </p>
 
 ---
 
-### 💡 About Me
-- 🔭 Currently working on [Your Project Name](#)  
-- 🌱 Learning **Laravel framework**  
-- 👯 Looking to collaborate on [Hackathons](#)  
-- 🤝 Seeking help with [Your Need](#)  
-- 📝 Writing articles on [My Blog](#)  
-- 💬 Ask me about **Web Development, Laravel, and more**  
-- 📫 Reach me at **[Email or Contact Link](#)**  
-- 📄 Check my [Resume](#)  
+## 🚀 About Me
+
+<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+
+- 🔭 I'm currently working on **E-commerce Platform Development**
+- 🌱 I'm deepening my expertise in **Laravel & React**
+- 👯 Looking to collaborate on **Open Source Projects & Hackathons**
+- 💬 Ask me about **Web Development, PHP, Laravel**
+- 📫 Reach me at: **amine.elassaly@example.com**
+- ⚡ Fun fact: **I love solving coding challenges**
+
+<br>
 
 ---
 
-### 🚀 My Projects
-- [Front Office Ecommerce Website](https://elassaly-amine.idsmobile.com)  
-- [Back Office](https://elassaly-amine.idsmobile.com/backoffice)
+## 🏆 GitHub Achievements
+
+<p align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=aminemoon&theme=onedark&no-frame=true&row=2&column=4" alt="GitHub Trophies" />
+  </a>
+</p>
 
 ---
 
-### 🌐 Connect with Me
+## 🔥 Featured Projects
+
+<table align="center">
+  <tr>
+    <td width="50%">
+      <h3 align="center">Front Office E-commerce</h3>
+      <div align="center">
+        <a href="https://elassaly-amine.idsmobile.com" target="_blank">
+          <img src="https://via.placeholder.com/300x150/0e75b6/ffffff?text=E-commerce+Front" alt="E-commerce Front" width="100%" />
+        </a>
+        <p>
+          <a href="https://elassaly-amine.idsmobile.com" target="_blank">
+            <img src="https://img.shields.io/badge/LIVE_DEMO-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" />
+          </a>
+        </p>
+        <p><strong>React, Node.js, MongoDB</strong> - Modern e-commerce platform with responsive design</p>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">Back Office Dashboard</h3>
+      <div align="center">
+        <a href="https://elassaly-amine.idsmobile.com/backoffice" target="_blank">
+          <img src="https://via.placeholder.com/300x150/0e75b6/ffffff?text=Back+Office" alt="Back Office" width="100%" />
+        </a>
+        <p>
+          <a href="https://elassaly-amine.idsmobile.com/backoffice" target="_blank">
+            <img src="https://img.shields.io/badge/LIVE_DEMO-0e75b6?style=for-the-badge&logo=google-chrome&logoColor=white" />
+          </a>
+        </p>
+        <p><strong>Laravel, MySQL, Bootstrap</strong> - Complete admin panel with analytics</p>
+      </div>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🌐 Connect With Me
+
 <p align="center">
   <a href="https://codepen.io/amine-el-assaly" target="_blank">
     <img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"/>
@@ -40,65 +90,82 @@
   <a href="https://www.youtube.com/@AmineIT-p7h" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
+  <a href="https://twitter.com/amine_elassaly" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://dev.to/aminemoon" target="_blank">
+    <img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
+  </a>
 </p>
 
 ---
 
-### 🛠 Languages & Tools
+## 🛠 Tech Stack
+
+### 💻 Languages
 <p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+</p>
+
+### 🚀 Frameworks & Libraries
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+### 🗄️ Databases & Tools
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
 ---
 
-### 📊 Skills Progress
+## 📊 GitHub Analytics
+
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-95%25-FF5733?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CSS-90%25-264DE4?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-85%25-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/PHP-80%25-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Laravel-75%25-FF2D20?style=for-the-badge&logo=laravel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/React-70%25-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-65%25-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aminemoon&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminemoon&layout=compact&langs_count=8&theme=radical"/>
+</p>
+
+<p align="center">
+  <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aminemoon&theme=radinal&hide_border=true" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aminemoon&theme=radical" alt="Profile Summary" />
 </p>
 
 ---
 
-### ☁️ Tech Cloud (Animated Feel)
+## 📈 Activity Graph
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,php,laravel,nodejs,react,mongodb,postgres,docker,linux" alt="Tech Cloud"/>
+  <img width="90%" src="https://activity-graph.herokuapp.com/graph?username=aminemoon&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </p>
 
 ---
 
-### 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminemoon&layout=compact&theme=radical" alt="Top Languages" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=aminemoon&show_icons=true&theme=radical" alt="GitHub Stats" />
-</p>
+## 🎯 Current Focus
 
----
-
-### 📈 Contribution & Visitors
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aminemoon&theme=radical" alt="GitHub Streak" />
-  <br>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aminemoon&theme=radical" alt="Profile Summary" />
-  <br>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=aminemoon.aminemoon" alt="Visitor Badge"/>
-</p>
-
+```javascript
+const amine = {
+  currentlyLearning: ["Laravel Advanced Concepts", "Microservices Architecture"],
+  currentProject: "Building a scalable e-commerce platform",
+  goals2024: ["Contribute to Open Source", "Master TypeScript", "Learn DevOps"],
+  lookingFor: "Collaboration on interesting web projects",
+  funFact: "I can solve a Rubik's cube in under 2 minutes!"
+};
