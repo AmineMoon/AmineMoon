@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
     <title>AMINE EL ASSALY · modern profile + car game</title>
     <!-- Google Font & Font Awesome for clean icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
