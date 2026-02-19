@@ -71,3 +71,15 @@
   <img src="https://github-readme-stats.vercel.app/api?username=aminemoon&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 
+---
+
+### 📈 Contribution & Visitors
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aminemoon&theme=radical" alt="GitHub Streak" />
+  <br>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=aminemoon&theme=radical" alt="Profile Summary" />
+  <br>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=aminemoon.aminemoon" alt="Visitor Badge"/>
+</p>
+
+
