@@ -46,8 +46,8 @@
 
 | Project | Description | Link |
 |---------|-------------|------|
-| **Front Office E-commerce** | React-based shopping platform | [Live Demo](https://elassaly-amine.idsmobile.com) |
-| **Back Office Dashboard** | Laravel admin panel | [Live Demo](https://elassaly-amine.idsmobile.com/backoffice) |
+| **Front Office E-commerce** | Laravel shopping platform | [Live Demo](https://elassaly-amine.idsmobile.com) |
+| **Back Office Dashboard** | Native php admin panel | [Live Demo](https://elassaly-amine.idsmobile.com/backoffice) |
 
 
 
