@@ -24,7 +24,7 @@
 - 🌱 I'm deepening my expertise in **Laravel & React**
 - 👯 Looking to collaborate on **Open Source Projects & Hackathons**
 - 💬 Ask me about **Web Development, PHP, Laravel**
-- 📫 Reach me at: **amine.elassaly@email.com**
+- 📫 Reach me at: **amine.el.assaly.24@gmail.com**
 - ⚡ Fun fact: **I love solving coding challenges**
 
 <br>
