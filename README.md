@@ -145,18 +145,4 @@ const amine = {
   funFact: "I can solve a Rubik's cube in under 2 minutes!"
 };
 
-<!-- Snake Animation -->
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/aminemoon/aminemoon/output/github-contribution-grid-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/aminemoon/aminemoon/output/github-contribution-grid-snake.svg"
-  />
-  <img
-    alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/aminemoon/aminemoon/output/github-contribution-grid-snake.svg"
-  />
-</picture>
+ 
