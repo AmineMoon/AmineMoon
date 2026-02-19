@@ -1,11 +1,11 @@
-<h1 align="center">Hi 👋, I'm AMINE EL ASSALY</h1>
-<h3 align="center">A passionate Full Stack Developer from MOROCCO</h3>
+# Hi 👋, I'm AMINE EL ASSALY
+### A passionate Full Stack Developer from MOROCCO
 
-<p align="center">
+<p>
   <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20views&color=0e75b6&style=flat" alt="aminemoon" />
 </p>
 
-<p align="center">
+<p>
   <a href="https://github.com/ryo-ma/github-profile-trophy">
     <img src="https://github-profile-trophy.vercel.app/?username=aminemoon" alt="aminemoon" />
   </a>
@@ -26,16 +26,9 @@
 ---
 
 ### My Projects
-
-<p align="center">
-  <a href="https://elassaly-amine.idsmobile.com" style="text-decoration:none;">
-    <kbd>Front Office Ecommerce Website</kbd>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://elassaly-amine.idsmobile.com/backoffice" style="text-decoration:none;">
-    <kbd>Back Office</kbd>
-  </a>
-</p>
+- [Front Office Ecommerce Website](https://elassaly-amine.idsmobile.com)  
+- [Back Office](https://elassaly-amine.idsmobile.com/backoffice)
+>
 
   
 <h3 align="left">Connect with me:</h3>
