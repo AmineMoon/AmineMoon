@@ -83,6 +83,30 @@
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" width="90%" />
   
   <br><br>
-  
+  # <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px"> Hi, I'm AMINE EL ASSALY
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=0E75B6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Laravel+%7C+React+%7C+Node.js;5%2B+Years+of+Coding;From+Morocco+%F0%9F%87%B2%F0%9F%87%A6;Open+Source+Contributor">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=0E75B6&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Laravel+%7C+React+%7C+Node.js;5%2B+Years+of+Coding;From+Morocco+%F0%9F%87%B2%F0%9F%87%A6;Open+Source+Contributor" alt="Typing SVG" />
+  </picture>
+</div>
+
+<p align="center">
+  <a href="#"><img src="https://img.shields.io/badge/dynamic/json?color=0e75b6&label=Profile%20Views&query=$.value&url=https://api.countapi.xyz/hit/aminemoon/aminemoon&style=flat-square" /></a>
+  <a href="https://github.com/aminemoon?tab=followers"><img src="https://img.shields.io/github/followers/aminemoon?label=Followers&style=social" alt="GitHub Badge"></a>
+  <a href="https://github.com/aminemoon"><img src="https://img.shields.io/github/stars/aminemoon?label=Stars&style=social" alt="GitHub Badge"></a>
+</p>
+
+---
+
+## 🚀 Live Status
+
+```mermaid
+timeline
+    title Current Activity
+    2024 : Working on E-commerce Platform
+         : Learning Microservices
+         : Contributing to OSS
   <small>Last updated: 2024</small>
 </div>
