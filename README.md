@@ -49,6 +49,7 @@
 | **Front Office E-commerce** | Laravel shopping platform | [Live Demo](https://elassaly-amine.idsmobile.com) |
 | **Back Office Dashboard** | Native php admin panel | [Live Demo](https://elassaly-amine.idsmobile.com/backoffice) |
 | **Dental website** | simple website | [Live Demo](https://elassaly-amine.idsmobile.com/Dental) |
+| **backoffice** | react.jsx dashboard panel |  https://coreui.io/demos/react/latest/default/?theme=light#/dashboard |
 
 
 
