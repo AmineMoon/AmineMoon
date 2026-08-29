@@ -61,7 +61,7 @@
   <a href="https://codepen.io/amine-el-assaly" target="_blank">
     <img src="https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white" alt="CodePen"/>
   </a>
-  <a href="https://www.linkedin.com/in/amine-el-assaly" target="_blank">
+  <a href="https://www.linkedin.com/in/amine-el-assaly1010/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://www.youtube.com/@AmineIT-p7h" target="_blank">
