@@ -17,42 +17,49 @@ I'm a Full Stack Developer from Morocco 🇲🇦 passionate about building moder
 🧠 Always learning, experimenting, and improving
 ⚡ Fun fact: I love solving coding challenges
 <br clear="right"/>
-📂 Featured Projects
+<!-- ==================== FEATURED PROJECTS ==================== -->
+## 📂 Featured Projects
 
-Here are some of the projects I've worked on:
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Description</th>
+        <th>Tech</th>
+        <th>Demo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>🛒 Front Office E‑commerce</strong></td>
+        <td>Laravel shopping platform with cart, payments & orders</td>
+        <td>Laravel · PHP · MySQL · Bootstrap</td>
+        <td><a href="https://elassaly-amine.idsmobile.com">🔗 Live</a></td>
+      </tr>
+      <tr>
+        <td><strong>📊 Back Office Dashboard</strong></td>
+        <td>Native PHP admin panel with analytics & content management</td>
+        <td>PHP · MySQL · JavaScript</td>
+        <td><a href="https://elassaly-amine.idsmobile.com/backoffice">🔗 Live</a></td>
+      </tr>
+      <tr>
+        <td><strong>🦷 Dental Website</strong></td>
+        <td>Modern, responsive clinic website with appointment booking</td>
+        <td>HTML · CSS · JavaScript</td>
+        <td><a href="https://elassaly-amine.idsmobile.com/Dental">🔗 Live</a></td>
+      </tr>
+      <tr>
+        <td><strong>⚛️ React Dashboard</strong></td>
+        <td>Professional admin panel built with React & CoreUI</td>
+        <td>React · CoreUI · JavaScript</td>
+        <td><a href="https://coreui.io/demos/react/latest/default/?theme=light#/dashboard">🔗 Live</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-🛒 E-commerce Platform
-
-A full-stack e-commerce platform designed to provide a complete online shopping experience.
-
-Tech: Laravel PHP MySQL JavaScript Bootstrap
-
-🔗 Live Demo
-
-📊 E-commerce Back Office
-
-An administration dashboard for managing products, customers, orders, and other e-commerce operations.
-
-Tech: PHP MySQL JavaScript Bootstrap
-
-🔗 Live Demo
-
-🦷 Dental Website
-
-A clean and responsive website created for a dental business.
-
-Tech: HTML CSS JavaScript Bootstrap
-
-🔗 Live Demo
-
-⚛️ React Administration Dashboard
-
-A modern administration dashboard built with React and CoreUI, designed for managing application data and business operations.
-
-Tech: React JavaScript CoreUI
-
-🔗 Demo
-
+---
 🛠️ Tech Stack
 💻 Languages
 <p align="center"> <img src="https://skillicons.dev/icons?i=php,js,html,css,c,cpp" alt="Languages"/> </p>
