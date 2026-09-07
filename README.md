@@ -17,41 +17,14 @@ I'm a Full Stack Developer from Morocco 🇲🇦 passionate about building moder
 🧠 Always learning, experimenting, and improving
 ⚡ Fun fact: I love solving coding challenges
 <br clear="right"/>
-📂 Featured Projects
+## 📂 Featured Projects
 
-Here are some of the projects I've worked on:
-
-🛒 E-commerce Platform
-
-A full-stack e-commerce platform designed to provide a complete online shopping experience.
-
-Tech: Laravel PHP MySQL JavaScript Bootstrap
-
-🔗 Live Demo
-
-📊 E-commerce Back Office
-
-An administration dashboard for managing products, customers, orders, and other e-commerce operations.
-
-Tech: PHP MySQL JavaScript Bootstrap
-
-🔗 Live Demo
-
-🦷 Dental Website
-
-A clean and responsive website created for a dental business.
-
-Tech: HTML CSS JavaScript Bootstrap
-
-🔗 Live Demo
-
-⚛️ React Administration Dashboard
-
-A modern administration dashboard built with React and CoreUI, designed for managing application data and business operations.
-
-Tech: React JavaScript CoreUI
-
-🔗 Demo
+| Project | Description | Link |
+|---------|-------------|------|
+| **Front Office E-commerce** | Laravel shopping platform | [Live Demo](https://elassaly-amine.idsmobile.com) |
+| **Back Office Dashboard** | Native php admin panel | [Live Demo](https://elassaly-amine.idsmobile.com/backoffice) |
+| **Dental website** | simple website | [Live Demo](https://elassaly-amine.idsmobile.com/Dental) |
+| **backoffice** | react.jsx dashboard panel |  https://coreui.io/demos/react/latest/default/?theme=light#/dashboard |
 
 🛠️ Tech Stack
 💻 Languages
