@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Snake — Playable on GitHub Pages</title>
+  <meta name="description" content="Simple Snake game you can play in the browser. Arrow keys / WASD. Touch support and Buy Me a Coffee button." />
+  <style>
+    :root{--bg:#0b1020;--panel:#0f1724;--accent:#0e75b6;--muted:#9aa4b2;--tile:#1f2a44}
+    html,body{height:100%;margin:0;font-family:Inter,Segoe UI,system-ui,Roboto,'Helvetica Neue',Arial}
+    body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#020617 0%, #071022 100%);color:#dbe7ff}
+    .container{max-width:980px;width:100%;Padding:28px;box-sizing:border-box}
+    .panel{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:12px;padding:18px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:0;color:var(--muted);font-size:13px}
+    .play-area{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+    .game{background:var(--panel);padding:14px;border-radius:10px;display:flex;flex-direction:column;align-items:center}
+    canvas{background:linear-gradient(180deg,#061026,#071a32);border-radius:8px;display:block}
+    .info{display:flex;gap:12px;align-items:center;margin-top:10px}
+    .score{background:#071535;padding:8px 12px;border-radius:8px;color:#aee1ff;font-weight:600}
+    .controls{display:flex;gap:8px;flex-wrap:wrap}
+    .btn{background:transparent;border:1px solid rgba(255,255,255,0.06);color:#dbe7ff;padding:8px 12px;border-radius:8px;cursor:pointer}
+    .btn:active{transform:scale(0.98)}
+    .donate{margin-left:auto}
+    .donate a{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(90deg,#ffdd57,#ff7a7a);color:#0b1020;padding:8px 12px;border-radius:8px;font-weight:700;text-decoration:none}
+    .footer{margin-top:12px;color:var(--muted);font-size:13px}
+    .mobile-controls{display:none;margin-top:12px}
+    .mobile-row{display:flex;justify-content:center;gap:8px}
+    .direction{width:60px;height:44px;border-radius:8px;background:rgba(255,255,255,0.03);display:flex;align-items:center;justify-content:center}
+    @media (max-width:720px){
+      body{padding:18px}
+      .play-area{flex-direction:column}
+      .mobile-controls{display:block}
+    }
+    .kbd{background:rgba(255,255,255,0.02);padding:4px 6px;border-radius:6px;border:1px solid rgba(255,255,255,0.02);font-size:12px}
+    .hint{font-size:13px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="panel">
+      <header>
+        <div>
+          <h1>Snake — Playable (for your profile)</h1>
+          <p class="lead">Use Arrow keys or WASD. Touch swipe supported. The page is served from docs/ so you can enable GitHub Pages to make this playable from your profile.</p>
+        </div>
+        <div class="donate">
+          <a href="https://www.buymeacoffee.com/AmineMoon" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee</a>
+        </div>
+      </header>
+
+      <div class="play-area">
+        <div class="game">
+          <canvas id="game" width="400" height="400"></canvas>
+          <div class="info">
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="controls">
+              <button id="startBtn" class="btn">Start</button>
+              <button id="pauseBtn" class="btn">Pause</button>
+              <button id="resetBtn" class="btn">Reset</button>
+            </div>
+          </div>
+          <div class="footer">Tip: press <span class="kbd">↑ ↓ ← →</span> or <span class="kbd">W A S D</span></div>
+        </div>
+
+        <div style="flex:1;min-width:220px;">
+          <h3 style="margin-top:0">About</h3>
+          <p class="hint">This is a simple, dependency-free Snake game implemented for GitHub Pages. I added touch controls and on-screen buttons so visitors can play on mobile.</p>
+          <h4 style="margin-bottom:4px">How to enable Pages</h4>
+          <ol style="color:var(--muted);font-size:13px">
+            <li>Go to your repository Settings &gt; Pages</li>
+            <li>Set Source to Branch: main and Folder: /docs</li>
+            <li>Save — your game will be available at https://aminemoon.github.io/AmineMoon/ (or similar)</li>
+          </ol>
+          <p class="hint">If you want a different Buy Me a Coffee URL, tell me and I'll update the link.</p>
+
+          <div class="mobile-controls">
+            <div class="mobile-row">
+              <div class="direction" id="upBtn">▲</div>
+            </div>
+            <div class="mobile-row">
+              <div class="direction" id="leftBtn">◀</div>
+              <div style="width:60px"></div>
+              <div class="direction" id="rightBtn">▶</div>
+            </div>
+            <div class="mobile-row">
+              <div class="direction" id="downBtn">▼</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Simple grid-based Snake
+    const canvas = document.getElementById('game');
+    const ctx = canvas.getContext('2d');
+    const scoreEl = document.getElementById('score');
+    const startBtn = document.getElementById('startBtn');
+    const pauseBtn = document.getElementById('pauseBtn');
+    const resetBtn = document.getElementById('resetBtn');
+
+    const cols = 20;
+    const rows = 20;
+    const tile = Math.floor(Math.min(canvas.width/cols, canvas.height/rows));
+
+    let snake, dir, food, running, loopId, speed;
+
+    function reset(){
+      snake = [{x:9,y:10},{x:8,y:10},{x:7,y:10}];
+      dir = {x:1,y:0};
+      placeFood();
+      running = false;
+      speed = 100; // ms
+      updateScore();
+      draw();
+    }
+
+    function placeFood(){
+      while(true){
+        const x = Math.floor(Math.random()*cols);
+        const y = Math.floor(Math.random()*rows);
+        if(!snake.some(p=>p.x===x && p.y===y)){
+          food = {x,y};
+          break;
+        }
+      }
+    }
+
+    function update(){
+      const head = {x: snake[0].x + dir.x, y: snake[0].y + dir.y};
+      // wrap
+      head.x = (head.x + cols) % cols;
+      head.y = (head.y + rows) % rows;
+
+      // collision with self
+      if(snake.some(p=>p.x===head.x && p.y===head.y)){
+        // game over -> stop
+        stop();
+        // flash
+        blinkGameOver();
+        return;
+      }
+
+      snake.unshift(head);
+      // eat
+      if(head.x===food.x && head.y===food.y){
+        placeFood();
+        // speed up slightly
+        if(speed>40) speed -= 3;
+      } else {
+        snake.pop();
+      }
+      updateScore();
+      draw();
+    }
+
+    function draw(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      // background grid
+      for(let x=0;x<cols;x++){
+        for(let y=0;y<rows;y++){
+          ctx.fillStyle = 'rgba(255,255,255,0.02)';
+          ctx.fillRect(x*tile,y*tile,tile-1,tile-1);
+        }
+      }
+      // food
+      ctx.fillStyle = '#ff7a7a';
+      ctx.fillRect(food.x*tile + 2, food.y*tile + 2, tile-4, tile-4);
+
+      // snake
+      for(let i=0;i<snake.length;i++){
+        const p = snake[i];
+        if(i===0){
+          ctx.fillStyle = '#aee1ff';
+        } else {
+          ctx.fillStyle = `rgba(174,225,255,${0.15 + 0.6*(1 - i/snake.length)})`;
+        }
+        ctx.fillRect(p.x*tile + 1, p.y*tile + 1, tile-2, tile-2);
+      }
+    }
+
+    function updateScore(){
+      scoreEl.textContent = (snake.length - 3);
+    }
+
+    function start(){
+      if(running) return;
+      running = true;
+      loopId = setInterval(update, speed);
+    }
+    function stop(){
+      running = false;
+      clearInterval(loopId);
+    }
+    function pause(){
+      stop();
+    }
+
+    function blinkGameOver(){
+      const old = canvas.style.boxShadow;
+      let t=0;
+      const id = setInterval(()=>{
+        canvas.style.boxShadow = t%2? '0 0 40px rgba(255,0,80,0.4)' : '';
+        t++;
+        if(t>6){
+          clearInterval(id);
+          canvas.style.boxShadow = old;
+        }
+      },200);
+    }
+
+    // Controls
+    window.addEventListener('keydown', e=>{
+      const k = e.key.toLowerCase();
+      if(['arrowup','w'].includes(k) || k==='arrowup') changeDir(0,-1);
+      if(['arrowdown','s'].includes(k) || k==='arrowdown') changeDir(0,1);
+      if(['arrowleft','a'].includes(k) || k==='arrowleft') changeDir(-1,0);
+      if(['arrowright','d'].includes(k) || k==='arrowright') changeDir(1,0);
+      if(k===' '){ if(running) pause(); else start(); }
+    });
+
+    function changeDir(x,y){
+      // prevent reversing
+      if(dir.x === -x && dir.y === -y) return;
+      dir = {x,y};
+    }
+
+    // Buttons
+    startBtn.addEventListener('click', ()=>start());
+    pauseBtn.addEventListener('click', ()=>pause());
+    resetBtn.addEventListener('click', ()=>{ reset(); });
+
+    // Mobile on-screen buttons
+    document.getElementById('upBtn').addEventListener('click', ()=>changeDir(0,-1));
+    document.getElementById('downBtn').addEventListener('click', ()=>changeDir(0,1));
+    document.getElementById('leftBtn').addEventListener('click', ()=>changeDir(-1,0));
+    document.getElementById('rightBtn').addEventListener('click', ()=>changeDir(1,0));
+
+    // Touch swipe detection
+    let touchStart = null;
+    canvas.addEventListener('touchstart', (e)=>{
+      const t = e.changedTouches[0];
+      touchStart = {x:t.clientX, y:t.clientY};
+    }, {passive:true});
+    canvas.addEventListener('touchend', (e)=>{
+      if(!touchStart) return;
+      const t = e.changedTouches[0];
+      const dx = t.clientX - touchStart.x;
+      const dy = t.clientY - touchStart.y;
+      if(Math.abs(dx) > Math.abs(dy)){
+        if(dx>20) changeDir(1,0); else if(dx<-20) changeDir(-1,0);
+      } else {
+        if(dy>20) changeDir(0,1); else if(dy<-20) changeDir(0,-1);
+      }
+      touchStart = null;
+    }, {passive:true});
+
+    // Prevent accidental double-tap zoom on mobile for play area
+    let lastTap = 0;
+    canvas.addEventListener('touchend', (e)=>{
+      const now = Date.now();
+      if(now - lastTap <= 300){ e.preventDefault(); }
+      lastTap = now;
+    });
+
+    // Start paused
+    reset();
+
+    // Resize handling (keep canvas square)
+    function fitCanvas(){
+      const rect = canvas.getBoundingClientRect();
+      const s = Math.min(rect.width, rect.height);
+      canvas.width = s - 0; canvas.height = s - 0;
+    }
+    window.addEventListener('resize', ()=>{
+      // keep tile consistent: do not zoom game on resize to avoid complexity
+      draw();
+    });
+
+  </script>
+</body>
+</html>
