@@ -1,38 +1,65 @@
 👋 Hi, I'm Amine El Assaly
 <div align="center">
-💻 Full Stack Developer • Laravel Enthusiast • Open Source Learner
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=650&lines=Full+Stack+Developer;Laravel+%26+PHP+Enthusiast;React+%26+React+Native;Building+Web+Applications;From+Morocco+%F0%9F%87%B2%F0%9F%87%A6" alt="Typing SVG" /> <p> <a href="https://github.com/aminemoon"> <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views"/> </a> <a href="https://github.com/aminemoon?tab=followers"> <img src="https://img.shields.io/github/followers/aminemoon?label=Followers&style=flat-square&color=0e75b6" alt="GitHub Followers"/> </a> <a href="https://github.com/aminemoon?tab=repositories"> <img src="https://img.shields.io/badge/Repositories-View-0e75b6?style=flat-square" alt="Repositories"/> </a> </p> </div>
+💻 Full Stack Developer • Laravel & PHP Enthusiast • React Developer
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&duration=3000&pause=1000&color=0E75B6&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;Laravel+%26+PHP+Enthusiast;React+%26+React+Native;Building+Modern+Web+Applications;E-commerce+Developer;From+Morocco+%F0%9F%87%B2%F0%9F%87%A6" alt="Typing SVG" /> <p> <a href="https://github.com/aminemoon"> <img src="https://komarev.com/ghpvc/?username=aminemoon&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views"/> </a> <a href="https://github.com/aminemoon?tab=followers"> <img src="https://img.shields.io/github/followers/aminemoon?label=Followers&style=flat-square&color=0e75b6" alt="GitHub Followers"/> </a> <a href="https://github.com/aminemoon?tab=repositories"> <img src="https://img.shields.io/badge/Repositories-View-0e75b6?style=flat-square" alt="Repositories"/> </a> </p> </div>
 🚀 About Me
 <img align="right" alt="Coding" width="380" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-I'm a Full Stack Developer from Morocco 🇲🇦 passionate about building modern, scalable and user-friendly web applications.
+I'm a Full Stack Developer from Morocco 🇲🇦 passionate about building modern, scalable, and user-friendly web applications.
 
 🔭 Currently working on E-commerce Platform Development
-🌱 Deepening my knowledge of Laravel, PHP & React
-⚙️ Interested in APIs, scalable architectures & modern web development
+🌱 Deepening my knowledge of Laravel, PHP, React & TypeScript
+⚙️ Interested in APIs, scalable architectures, and clean code
+🛒 Experienced in building E-commerce & Business Management Systems
+📱 Exploring React Native for mobile application development
 👯 Open to collaborating on Open Source Projects & Hackathons
-💬 Ask me about PHP, Laravel, JavaScript & Web Development
-🧠 Always learning and experimenting with new technologies
+💬 Ask me about PHP, Laravel, JavaScript, React & Web Development
+🧠 Always learning, experimenting, and improving
 ⚡ Fun fact: I love solving coding challenges
 <br clear="right"/>
+📂 Featured Projects
+
+Here are some of the projects I've worked on:
+
+🛒 E-commerce Platform
+
+A full-stack e-commerce platform designed to provide a complete online shopping experience.
+
+Tech: Laravel PHP MySQL JavaScript Bootstrap
+
+🔗 Live Demo
+
+📊 E-commerce Back Office
+
+An administration dashboard for managing products, customers, orders, and other e-commerce operations.
+
+Tech: PHP MySQL JavaScript Bootstrap
+
+🔗 Live Demo
+
+🦷 Dental Website
+
+A clean and responsive website created for a dental business.
+
+Tech: HTML CSS JavaScript Bootstrap
+
+🔗 Live Demo
+
+⚛️ React Administration Dashboard
+
+A modern administration dashboard built with React and CoreUI, designed for managing application data and business operations.
+
+Tech: React JavaScript CoreUI
+
+🔗 Demo
+
 🛠️ Tech Stack
 💻 Languages
 <p align="center"> <img src="https://skillicons.dev/icons?i=php,js,html,css,c,cpp" alt="Languages"/> </p>
 🚀 Frameworks & Libraries
 <p align="center"> <img src="https://skillicons.dev/icons?i=laravel,react,bootstrap" alt="Frameworks"/> </p>
-🗄️ Database & Tools
+🗄️ Databases & Tools
 <p align="center"> <img src="https://skillicons.dev/icons?i=mysql,git,linux,vscode,github" alt="Tools"/> </p>
-📂 Featured Projects
-<div align="center">
-🚀 Project	📝 Description	🔗
-E-commerce Front Office	Laravel-based shopping platform	Demo
-
-E-commerce Back Office	PHP administration dashboard	Demo
-
-Dental Website	Modern website for a dental business	Demo
-
-React Dashboard	React + CoreUI administration dashboard	Demo
-</div>
 📊 GitHub Analytics
 <div align="center"> <img height="180em" src="https://github-readme-stats.vercel.app/api?username=aminemoon&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats"/> <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminemoon&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" alt="Top Languages"/> </div> <br> <div align="center"> <img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=aminemoon&theme=tokyonight&hide_border=true" alt="GitHub Streak"/> </div>
 🏆 GitHub Trophies
@@ -43,6 +70,14 @@ React Dashboard	React + CoreUI administration dashboard	Demo
 const amine = {
     role: "Full Stack Developer",
     location: "Morocco 🇲🇦",
+
+    stack: {
+        backend: ["PHP", "Laravel"],
+        frontend: ["JavaScript", "React", "Bootstrap"],
+        mobile: ["React Native"],
+        database: ["MySQL"],
+        tools: ["Git", "Linux", "VS Code"]
+    },
 
     currentlyLearning: [
         "Advanced Laravel",
@@ -56,6 +91,7 @@ const amine = {
 
     interestedIn: [
         "Web Development",
+        "E-commerce",
         "Open Source",
         "APIs",
         "Software Architecture"
