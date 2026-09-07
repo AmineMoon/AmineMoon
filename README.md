@@ -127,6 +127,13 @@
 </p>
 
 ---
+ ## buy me coffee 
+ 
+<a href="https://buymeacoffee.com/AmineMoon/YOUR_USERNAME">
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
+       alt="Buy Me A Coffee"
+       height="41">
+</a>
 
 ## 📈 Activity Graph
 
@@ -136,13 +143,7 @@
 
  >
 
----
- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
-</picture>
-
+ 
 ## 🎯 Current Focus
 
 ```javascript
