@@ -134,11 +134,14 @@
   <img width="90%" src="https://activity-graph.herokuapp.com/graph?username=aminemoon&theme=react-dark&hide_border=true&area=true" alt="GitHub Activity Graph" />
 </p>
 
-  <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/dist/github-contribution-grid-snake.svg">
-</p>
+ >
 
 ---
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
+  <img alt="github-snake" src="github-snake.svg" />
+</picture>
 
 ## 🎯 Current Focus
 
